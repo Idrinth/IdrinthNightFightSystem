@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "idrinth-night-fighting",
+  "version-string": "1.0.0",
+  "description": "A simple Night Fight System",
+  "homepage": "https://github.com/idrinth/IdrinthNightFightSystem",
+  "features": {
+    "plugin": {
+      "description": "SKSE plugin",
+      "dependencies": [
+        "commonlibsse-ng",
+        "spdlog",
+        "boost-algorithm",
+        "ryml"
+      ]
+    }
+  },
+  "default-features": [
+    "plugin"
+  ]
+}

@@ -1,0 +1,2 @@
+# Possible values(right means less messages): trace, debug, info, warn, error, critical, off
+logLevel: info
